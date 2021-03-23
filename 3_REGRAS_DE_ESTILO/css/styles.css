@@ -1,0 +1,59 @@
+div, main {
+  background-color: #ddd;
+}
+div p, div h2, main p, main h2 {
+  color: blue;
+}
+
+main .red {
+  color: red;
+}
+
+li {
+  color: purple;
+}
+
+ol > li {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+  transition: 0.5s;
+  padding: 10px;
+  border: 1px solid orange;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.container {
+  background-color: #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+.container-content {
+  color: red;
+}
+
+.sub-title, .title {
+  border-bottom: 2px dotted red;
+  padding: 10px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.sub-title {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */

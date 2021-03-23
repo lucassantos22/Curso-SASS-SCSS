@@ -1,0 +1,30 @@
+@import 'variables'
+@import 'button'
+@import mixins
+@import function
+@import placeholders
+    
+
+.p-esp, h2
+    @include special
+    
+h1
+    @include green
+
+.esp-menor
+    @include espacamento(10px)
+    border: 1px solid red
+
+.esp-medio
+    @include espacamento(15px, 15px)
+    border: 1px solid blue
+
+.esp-medio
+    @include espacamento(25px, 25px)
+    border: 1px solid green
+
+.fonte-pequena
+    $font-size: 20px
+    font-size: $font-size
+    color: text-color()
+    @extend %border

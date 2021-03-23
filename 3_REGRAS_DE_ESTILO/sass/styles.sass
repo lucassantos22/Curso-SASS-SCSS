@@ -1,0 +1,52 @@
+div, main
+    background-color: #ddd
+
+    p, h2
+        color: blue
+
+main
+    .red
+        color: red
+
+li
+    color: purple
+
+ol
+    >li
+        color: green
+
+a
+    text-decoration: none
+    color: orange
+    transition: .5s
+    padding: 10px
+    border: 1px solid orange
+    display: block
+    width: 150px
+    text-align: center
+
+    &:hover
+        background-color: orange
+        color: white
+
+.container
+    background-color: #ccc
+    padding: 20px
+    margin: 20px
+
+    &-content // .container-content
+        color: red
+
+%base-title-style
+    border-bottom: 2px dotted red
+    padding: 10px
+    background-color: yellow
+    text-align: center
+
+.title
+    font-size: 30px
+    @extend %base-title-style
+
+.sub-title
+    font-size: 25px
+    @extend %base-title-style
